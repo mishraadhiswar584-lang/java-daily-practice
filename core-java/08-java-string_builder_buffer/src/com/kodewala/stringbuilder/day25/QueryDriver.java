@@ -1,6 +1,6 @@
 package com.kodewala.stringbuilder.day25;
 
-public class Driver2 {
+public class QueryDriver {
 
 	public static void main(String[] args) {
 		QueryGenerator generator = new QueryGenerator();
