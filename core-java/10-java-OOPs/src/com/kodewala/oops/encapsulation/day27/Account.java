@@ -1,5 +1,7 @@
 package com.kodewala.oops.encapsulation.day27;
 
+import java.util.Scanner;
+
 public class Account {
 	private String accountHolderName;
 	private String accountNumber;
@@ -16,13 +18,25 @@ public class Account {
 	
 //	setter method
 	public void doTransaction(int amount) {
+		Scanner scanner = new Scanner(System.in);
+		
 		if (amount <= balance && amount > 0) {
-			System.out.println(" Processing your transaction of Rs. " + amount + "/- ");
-			balance -= amount;
-			System.out.println(" Transaction successful...");
+			System.out.println(" ENTER PIN : ");
+//			pin in hard coded its not recommended to use
+			int pin = scanner.nextInt();
+			scanner.nextLine();
+			if (pin == 2003) {
+				System.out.println(" Processing your transaction of Rs. " + amount + "/- ");
+				balance -= amount;
+				System.out.println(" Transaction successful...");
+			} else {
+				System.err.println(" WRONG PIN");
+			}	
 		} else {
 			System.err.println(" Invalid amount in input");
 		}
+		
+		scanner.close();
 	}
 	 
 //	getter  method
