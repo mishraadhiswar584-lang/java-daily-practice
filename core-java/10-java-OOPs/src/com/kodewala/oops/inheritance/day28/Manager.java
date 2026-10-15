@@ -1,5 +1,5 @@
 package com.kodewala.oops.inheritance.day28;
-
+// Manager IS-A Employee
 public class Manager extends Employee {
 	
 	public Manager(String name, String address) {
