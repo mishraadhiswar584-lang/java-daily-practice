@@ -30,3 +30,5 @@ public class Animal {
 		System.out.println(" Color : " + color);
 	}
 }
+
+

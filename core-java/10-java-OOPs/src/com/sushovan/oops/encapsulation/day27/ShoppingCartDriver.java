@@ -11,7 +11,7 @@ public class ShoppingCartDriver {
 		products.add("Laptop");
 		products.add("EarBuds");
 		products.add("Mouse");
-		
+		 
 		List<Integer> quantity = new ArrayList<Integer>();
 		quantity.add(23);
 		quantity.add(2);

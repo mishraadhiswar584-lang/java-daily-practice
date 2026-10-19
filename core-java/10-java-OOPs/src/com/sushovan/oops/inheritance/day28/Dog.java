@@ -28,3 +28,7 @@ public class Dog extends Animal {
 		System.out.println(" Is trained : " + isTrained);
 	}
 }
+
+
+
+

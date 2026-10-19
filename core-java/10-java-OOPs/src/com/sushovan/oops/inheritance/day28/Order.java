@@ -15,7 +15,7 @@ public class Order {
 		this.customerName = customerName;
 		this.orderDate = orderDate;
 	}
-	
+	 
 	public int calculateFinalAmount() {
 		return amount;
 	}
