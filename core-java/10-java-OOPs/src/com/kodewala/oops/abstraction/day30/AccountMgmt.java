@@ -13,3 +13,8 @@ public class AccountMgmt {
 //        when I made the core functionalities private then another class can't access them directly
     }
 }
+ 
+
+
+
+
