@@ -4,7 +4,7 @@ public class AccountMgmt {
     public static  void main(String[] args) {
         Account account = new Account();
 //        required functionalities
-        account.openAccount("Sushovan", "BTM layout, Bangaloer", "CJOPJ06914b");
+        account.openAccount("adhiswar", "BTM layout, Bangaloer", "CJOPJ06914b");
 //        when the core functionalities of Account class is public another class can use that, we should hide the core funct.
 //        account.validatePan("JHDO6JS2");
 //        account.notifyUser();
