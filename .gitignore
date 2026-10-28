@@ -1,10 +1,6 @@
 .metadata/
 **/.metadata/
+**/bin/
 *.class
 .DS_Store
-.git-backup/
-.metadata/
-**/.metadata/
-*.class
-.DS_Store
-.git-backup/
+**/.git-backup/
