@@ -1,5 +1,0 @@
-package com.Adi.kodewala;
-
-public interface IDiscount {
-
-}
